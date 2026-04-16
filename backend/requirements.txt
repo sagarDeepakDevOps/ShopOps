@@ -20,6 +20,6 @@ opentelemetry-sdk==1.36.0
 opentelemetry-exporter-otlp==1.36.0
 opentelemetry-instrumentation-fastapi==0.57b0
 opentelemetry-instrumentation-sqlalchemy==0.57b0
-prometheus-client==0.22.1
+prometheus-client==0.25.0
 prometheus-fastapi-instrumentator==7.1.0
 httpx==0.28.1
