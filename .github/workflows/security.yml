@@ -62,7 +62,7 @@ jobs:
         run: docker build -t shopops-backend:scan ./backend
 
       - name: Trivy scan
-        uses: aquasecurity/trivy-action@0.25.0
+        uses: aquasecurity/trivy-action@0.35.0
         with:
           image-ref: shopops-backend:scan
           format: table
